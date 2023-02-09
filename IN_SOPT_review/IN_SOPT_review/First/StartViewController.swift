@@ -104,13 +104,25 @@ class StartViewController: UIViewController {
         layout()
     }
     
+    private func presentToWelcomeVC() {
+        let welcomeVC = WelcomeViewController()
+        welcomeVC.modalPresentationStyle = .formSheet
+        self.present(welcomeVC, animated: true, completion: nil)
+    }
+    
     @objc
     private func touchupLoginButton() {
-        
+        presentToWelcomeVC()
     }
+    
+    private func pushToNewAccountVC() {
+        let newAccountVC = NewAccountViewController()
+        self.navigationController?.pushViewController(newAccountVC, animated: true)
+    }
+    
     @objc
     private func touchupNewButton() {
-        
+        pushToNewAccountVC()
     }
 }
 

@@ -38,7 +38,7 @@ class WelcomeViewController: UIViewController {
     }
     @objc
     private func touchupCompleteButton() {
-        
+        self.dismiss(animated: true, completion: nil)
     }
 }
 extension WelcomeViewController {
