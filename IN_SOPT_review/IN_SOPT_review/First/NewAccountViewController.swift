@@ -95,8 +95,16 @@ class NewAccountViewController: UIViewController {
         layout()
     }
     
+    private func presentToWelcomeVC() {
+        let welcomeVC = WelcomeViewController()
+        welcomeVC.modalPresentationStyle = .formSheet
+        self.present(welcomeVC, animated: true, completion: nil)
+    }
+    
     @objc
     private func touchupNewAccountButton() {
+        presentToWelcomeVC()
+        self.navigationController?.popViewController(animated: true)
         
     }
 
