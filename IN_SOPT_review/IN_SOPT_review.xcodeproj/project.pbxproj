@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C3D50C812994EBDD004C48D6 /* NewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D50C802994EBDD004C48D6 /* NewAccountViewController.swift */; };
+		C3D50C832994EE80004C48D6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D50C822994EE80004C48D6 /* WelcomeViewController.swift */; };
 		C3FBCB6B2990D730002AF5E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FBCB6A2990D730002AF5E2 /* AppDelegate.swift */; };
 		C3FBCB6D2990D730002AF5E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FBCB6C2990D730002AF5E2 /* SceneDelegate.swift */; };
 		C3FBCB722990D730002AF5E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FBCB702990D730002AF5E2 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		C3D50C802994EBDD004C48D6 /* NewAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountViewController.swift; sourceTree = "<group>"; };
+		C3D50C822994EE80004C48D6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		C3FBCB672990D730002AF5E2 /* IN_SOPT_review.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IN_SOPT_review.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FBCB6A2990D730002AF5E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3FBCB6C2990D730002AF5E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				C3FBCB7E2990D7B1002AF5E2 /* StartViewController.swift */,
 				C3D50C802994EBDD004C48D6 /* NewAccountViewController.swift */,
+				C3D50C822994EE80004C48D6 /* WelcomeViewController.swift */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3FBCB6B2990D730002AF5E2 /* AppDelegate.swift in Sources */,
+				C3D50C832994EE80004C48D6 /* WelcomeViewController.swift in Sources */,
 				C3FBCB6D2990D730002AF5E2 /* SceneDelegate.swift in Sources */,
 				C3FBCB7F2990D7B1002AF5E2 /* StartViewController.swift in Sources */,
 				C3D50C812994EBDD004C48D6 /* NewAccountViewController.swift in Sources */,
