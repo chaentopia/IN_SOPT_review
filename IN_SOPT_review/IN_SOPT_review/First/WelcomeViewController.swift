@@ -14,7 +14,7 @@ class WelcomeViewController: UIViewController {
     
     private let welcomeLabel : UILabel = {
         let label = UILabel()
-        label.text = "000님\n환영합니다"
+        label.text = "님\n환영합니다"
         label.textAlignment = .center
         label.font = .systemFont(ofSize: 20, weight: .semibold)
         label.numberOfLines = 2
@@ -35,6 +35,9 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         layout()
+    }
+    func dataBind(result:String) {
+        welcomeLabel.text = "\(result)님\n환영합니다"
     }
     @objc
     private func touchupCompleteButton() {
