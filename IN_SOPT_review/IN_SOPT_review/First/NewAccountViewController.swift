@@ -85,7 +85,7 @@ class NewAccountViewController: UIViewController {
         button.titleLabel?.font = .systemFont(ofSize: 15)
         button.setTitleColor(.black, for: .normal)
         button.backgroundColor = 0xF6F6F6.color
-        button.addTarget(self, action: #selector(touchupNewButton), for: .touchUpInside)
+        button.addTarget(self, action: #selector(touchupNewAccountButton), for: .touchUpInside)
         return button
     }()
 
@@ -96,7 +96,7 @@ class NewAccountViewController: UIViewController {
     }
     
     @objc
-    private func touchupNewButton() {
+    private func touchupNewAccountButton() {
         
     }
 
