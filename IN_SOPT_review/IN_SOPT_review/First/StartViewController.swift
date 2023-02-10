@@ -108,6 +108,9 @@ class StartViewController: UIViewController {
         let welcomeVC = WelcomeViewController()
         welcomeVC.modalPresentationStyle = .formSheet
         self.present(welcomeVC, animated: true, completion: nil)
+        if let email = emailTextField.text{
+            welcomeVC.dataBind(result: email)
+        }
     }
     
     @objc
